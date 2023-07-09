@@ -1,1 +1,2 @@
 Projeto de site baseado em Html, CSS e JavaScript feito na semanha do Zero ao Desenvolvedor do Dev em Dobro.
+Nesse projeto paralelo eu me baseei em uma das minhas paixões, os animes, trazendo animes nostálgicos da minha infância. Eu tbm melhorei o projeto adicionando alteração no logo, no plano de fundo e colocando links nas imagens. 

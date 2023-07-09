@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto X-Men - Semana do Zero Ao Programador Contratado</title>
+    <title>Otaku Way</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,8 +16,9 @@
 </head>
 
 <body>
+    <img class="corpo" src="./src/imagens/bg-seya.jpg" alt="fundo">
     <header class="cabecalho">
-        <img class="logo" src="./src/imagens/logo.svg" alt="Logo x-men">
+        <img class="logo" src="./src/imagens/logo-yusuke.png" alt="Logo equipe">
 
     </header>
 
@@ -25,49 +26,57 @@
 
         <section class="personagens">
 
-            <h1 class="titulo"> Selecione um personagem </h1>
+            <h1 class="titulo"> Escolha seu caminho Otaku. </h1>
 
             <ul class="lista-de-personagens">
-                <li class="personagem selecionado" id="ciclope">
-                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                <li class="personagem selecionado" id="seya" data-name="Os Cavaleiros do Zódiaco" data-description="Um órfão chamado Seiya, é
+                forçado a ir ao Santuário na Grécia para obter a Armadura de Bronze de Pégaso, uma veste usada pelos 88 guerreiros da deusa grega Athena, os Cavaleiros.">
+                    <a href="https://saintseiya.fandom.com/pt-br/wiki/Os_Cavaleiros_do_Zod%C3%ADaco"><img src="./src/imagens/card-seya.jpg" alt="Personagem Seya"></a>
                 </li>
-                <li class="personagem" id="jean-gray">
-                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                <li class="personagem" id="luffy" data-name="One Piece" data-description="A série foca em Monkey D. Luffy,
+                que, inspirado em seu ídolo de infância, o poderoso pirata Shanks, parte em uma jornada para encontrar o tesouro One Piece, e proclamar-se o Rei dos Piratas.">
+                    <a href="https://onepiece.fandom.com/pt/wiki/P%C3%A1gina_principal"><img src="./src/imagens/card-luffy.jpg" alt="Personagem Luffy"></a>
                 </li>
-                <li class="personagem" id="lince-negra">
-                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                <li class="personagem" id="yusuke" data-name="YuYu Hakusho" data-description="Segue a história de Yusuke Urameshi, 
+                um delinquente que é atropelado por um carro e morto em uma tentativa de salvar um garotinho, empurrando-o para fora do caminho.">
+                    <a href="https://yuyuhakusho.fandom.com/pt-br/wiki/Wiki_Yu_yu_hakusho"><img src="./src/imagens/card-yusuke.jpg" alt="Personagem Yusuke"></a>
                 </li>
-                <li class="personagem" id="magneto">
-                    <img src=".//src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                <li class="personagem" id="naruto" data-name="Naruto" data-description="Gira em torno das aventuras de Naruto Uzumaki, 
+                um jovem órfão habitante da Aldeia da Folha que sonha em se tornar o quinto Hokage, o maior guerreiro e governante da vila.">
+                    <a href="https://naruto.fandom.com/pt-br/wiki/Wiki_Naruto"><img src="./src/imagens/card-naruto.jpg" alt="Personagem Naruto"></a>
                 </li>
-                <li class="personagem" id="noturno">
-                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                <li class="personagem" id="kenshin" data-name="Samurai X" data-description="Ambientada nos primeiros anos da Era Meiji no Japão, 
+                conta a história de Kenshin Himura um pacífico espadachim que prometeu nunca mais matar. ">
+                    <a href="https://kenshin.fandom.com/wiki/Main_Page"><img src="./src/imagens/card-kenshin.jpg" alt="Personagem Kenshin"></a>
                 </li>
-                <li class="personagem" id="tempestade">
-                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                <li class="personagem" id="yugi" data-name="Yu-Gi-Oh!" data-description="Segue a história de um menino chamado Yugi Muto,
+                que desperta um espírito dentro de seu corpo com a personalidade de um jogador e que resolve seus conflitos usando vários jogos.">
+                    <a href="https://yugioh.fandom.com/pt-br/wiki/P%C3%A1gina_principal"><img src="./src/imagens/card-yugi.jpg" alt="Personagem yugi"></a>
                 </li>
-                <li class="personagem" id="vampira">
-                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                <li class="personagem" id="shurato" data-name="Shurato" data-description="O anime conta a história de Shurato, 
+                um garoto de 16 anos, que foi transportado ao “Mundo Celestial” e luta contra os deuses de Asura.">
+                    <a href="https://shurato.fandom.com/wiki/Shurato_Wiki"><img src="./src/imagens/card-shurato.jpg" alt="Personagem 
+                    Shurato"></a>
                 </li>
-                <li class="personagem" id="wolverine">
-                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                <li class="personagem" id="bleach" data-name="Bleach" data-description="O jovem Ichigo, 
+                depois de passar grande parte de sua vida vendo fantasmas, se torna um Shinigami, um ser sobrenatural capaz de controlar a morte.">
+                    <a href="https://bleach.fandom.com/pt/wiki/Bleach_Wiki"><img src="./src/imagens/card-bleach.jpg" alt="Personagem Bleach"></a>
                 </li>
             </ul>
         </section>
 
         <section class="personagem-selecionado">
-            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-cavz.png" alt="Personagem Selecionado">
 
             <div class="infomacoes-personagem">
-                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
-                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar
-                    rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue
-                    controlá-los.
+                <h2 class="nome-personagem" id="nome-personagem">Saint Seya</h2>
+                <p class="descricao-personagem" id="descricao-personagem">O enredo se concentra em um órfão chamado Seiya, forçado a ir ao Santuário na Grécia para obter a Armadura de Bronze de Pégaso, uma veste usada pelos 88 guerreiros da deusa grega Athena, conhecidos como Cavaleiros.
                 </p>
             </div>
         </section>
 
     </main>
+    <script src="./src/js/index.js"></script>
 </body>
 
 </html>
